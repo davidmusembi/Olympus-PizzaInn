@@ -8,4 +8,19 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    /* media queries */
+    @media screen  and (max-width:1200px) and (min-width:768px){
+        background:white;
+        
+      }
+      @media(max-width:$laptop) 
+      {
+        padding:15px;
+        margin: 30px;
+           }
+           @media(max-width:$tablet) 
+      {
+        padding:15px;
+        margin: 0px;
+            }
   }
