@@ -124,3 +124,9 @@ a:hover{
          #design{
             display: none;
           }
+        #development{
+          display: none;
+        }
+        #product-mgt{
+          display: none;
+        }
