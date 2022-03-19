@@ -94,5 +94,38 @@
               </div>
             </div>
         </section>
+
+         <!-- Order -->
+    <section id="order">
+        <div class="order row" style="background-color: grey;">
+          <div class="col-md-6">
+              <h3 style="text-align: center">Enter your order details below <br>
+                  Fill in the form </h3>
+              <form action="" id="pizzainfo">
+                  <label for="">Choose your pizza size</label>
+                  <select class="form-control" name="size" id="size">
+                      <option value="1200">Large @ ksh 1200</option>
+                      <option value="900">Medium @ ksh 900</option>
+                      <option value="600">Small @ ksh 600</option>
+                  </select>
+                  <label for="">Choose your desired crust type</label>
+                  <select class="form-control" name="" id="crust">
+                      <option value="230" name="crust">stuffed crust @ ksh230
+                      <option value="250" name="crust">Crispy @ ksh 250
+                      <option value="300" name="crust">Glutten free @ ksh 300
+                  </select>
+                  <label for="">Choose your Desired toppings</label> <br>
+                  <input value="150" type="checkbox" id="toppingone">Mushrooms
+                  <input value="150" type="checkbox" id="toppingone">Sausage
+                  <input value="150" type="checkbox" id="toppingone">Onions
+                  <input value="150" type="checkbox" id="toppingone">Tikka Sauce
+                  <input value="150" type="checkbox" id="toppingone">Mozarella Cheese
+  
+                  <label for="">Input Quantity</label>
+                  <input class="form-control form-group" type="number" id="numberofpizza">
+                  <button style="background-color: green; border-radius:8px; text-align: center;font-size:16px" name="button" type="submit" id="submit" value="Check-Out"
+                      onclick="calctotalPrice()">Submit</button>
+              </form>
+          </div>
 </body>
 </html>
