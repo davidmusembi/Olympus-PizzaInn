@@ -130,3 +130,42 @@ a:hover{
         #product-mgt{
           display: none;
         }
+
+          /* order */
+       
+         
+          /*Contact page*/
+          #contact {
+            background:black;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          
+          #contact input {
+            height: 45px;
+          }
+          
+          #contact input,
+          #contact textarea {
+            background: transparent;
+            border-radius: 0;
+            color: #fff;
+          }
+          
+          #contact input::placeholder,
+          #contact textarea::placeholder {
+            color: #cccccc;
+          }
+          
+          #contact input:focus, #contact input:active,
+          #contact textarea:focus,
+          #contact textarea:active {
+            box-shadow: none;
+            border-color: #fff;
+          }
+          
+          #contact button:focus, #contact button:active {
+            box-shadow: none;
+            border-color: #fff;
+          }
+        
