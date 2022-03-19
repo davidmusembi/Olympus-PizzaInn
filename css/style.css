@@ -100,3 +100,12 @@ a:hover{
       padding-top: 15%;
       padding-bottom: 1%;
     }
+     /*about us page*/
+     .aboutUs{
+        background:#000;
+          padding-top:5%;
+          padding-bottom: 3%;
+          text-align: center;
+          font-size: 16px;
+          color: white;
+         }
