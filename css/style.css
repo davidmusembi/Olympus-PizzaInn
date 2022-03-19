@@ -109,3 +109,18 @@ a:hover{
           font-size: 16px;
           color: white;
          }
+         /*Services */
+         #whatWeDo h2{
+            padding-top: 3%;
+          }
+          .overlay{
+            background-color: black;
+            opacity: 0.7;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 90%;
+          }
+         #design{
+            display: none;
+          }
