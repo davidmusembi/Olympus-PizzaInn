@@ -79,3 +79,24 @@ a{
 a:hover{
     color: #000;
 }
+/* Home page */
+.container-full{
+    background-image: url("../img/backgrounds/Pizza.jpg");
+    background-position: center;
+    text-align:center;
+    height: auto;
+    background-size: cover;
+    text-decoration-color: white;
+  }
+  .landing{
+    padding-top: 20%;
+    }
+    .landing h1{
+        font-weight: 600;
+        font-size: 45px;
+      }
+    
+    #mouse{
+      padding-top: 15%;
+      padding-bottom: 1%;
+    }
