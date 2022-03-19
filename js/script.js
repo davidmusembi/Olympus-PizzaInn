@@ -63,8 +63,41 @@ function getSizeCost() {
   
     
   }
-  //Creating a function to validate the submit button on contact page
-var contactForm = $("#contact-form");
+ 
+
+$(document).ready(function(){
+     //Creating a jquery effect  to open the hover effect on the Service page
+     $(".design").click(function() {
+        $("#design, .design").toggle("slow");
+      });
+      $("#design").click(function() {
+        $(".design, #design").toggle("slow");
+      });
+      $(".development").click(function() {
+        $("#development, .development").toggle("slow");
+      });
+      $("#development").click(function() {
+        $(".development, #development").toggle("slow");
+      });
+      $(".product-mgt").click(function() {
+        $("#product-mgt, .product-mgt").toggle("slow");
+      });
+      $("#product-mgt").click(function() {
+        $(".product-mgt, #product-mgt").toggle("slow");
+      }); 
+      $("#delivery").submit(function () {
+
+        var name = $("input#name").val();
+        var number = $("input#number").val();
+        var location = $("input#location").val();
+  
+        alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh Ksh400 Thank you for chosing  Olympus PizzaINN.");
+        $("#delivery").trigger("reset");
+        return false;
+  
+    });
+    //Creating a function to validate the submit button on contact page
+    var contactForm = $("#contact-form");
 
 contactForm.on("submit", function(e) {
  e.preventDefault();
@@ -104,23 +137,22 @@ function clearForm() {
   }
 
   removeFormErrors();
-$(document).ready(function(){
-     //Creating a jquery effect  to open the hover effect on the Service page
-     $(".design").click(function() {
-        $("#design, .design").toggle("slow");
-      });
-      $("#design").click(function() {
-        $(".design, #design").toggle("slow");
-      });
-      $(".development").click(function() {
-        $("#development, .development").toggle("slow");
-      });
-      $("#development").click(function() {
-        $(".development, #development").toggle("slow");
-      });
-      $(".product-mgt").click(function() {
-        $("#product-mgt, .product-mgt").toggle("slow");
-      });
-      $("#product-mgt").click(function() {
-        $(".product-mgt, #product-mgt").toggle("slow");
-      }); 
+    
+  });
+  (document).ready(function () {
+    $("#delivery").submit(function () {
+  
+        var name = $("input#name").val();
+        var number = $("input#number").val();
+        var location = $("input#location").val();
+  
+        alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " +  location + " within one hour.The delivery will cost ksh Ksh400 Thank you for chosing  Olympus PizzaINN.");
+        $("#delivery").trigger("reset");
+        return false;
+  
+    });
+    
+  });
+  
+
+      
