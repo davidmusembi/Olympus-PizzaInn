@@ -88,12 +88,7 @@ function clearForm() {
     
     // proceed button
     $(document).ready(function(){
-      // $("button.proceed").click(function(){
-      //   $("button.proceed").hide();
-      //   $("#information").hide();
-      //   $("div.choise").slideDown(1000);
-      // });
-      $("button.proceed").click(function(event){
+       $("button.proceed").click(function(event){
        let pname = $(".name option:selected").val();
        let psize = $("#size option:selected").val();
        let pcrust = $("#crust option:selected").val();
