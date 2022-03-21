@@ -9,22 +9,8 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    /* media queries */
-    @media screen  and (max-width:1200px) and (min-width:768px){
-        background:white;
-        
-      }
-      @media(max-width:$laptop) 
-      {
-        padding:15px;
-        margin: 30px;
-           }
-           @media(max-width:$tablet) 
-      {
-        padding:15px;
-        margin: 0px;
-            }
-  }
+      
+       }
   /* nav bar */
   h1{
     font-size: 50px;
@@ -51,17 +37,8 @@ p{
     justify-content: right;
     list-style: none;
     margin-right: 15%;
-    /* media query */
-    @media (max-width:$laptop) 
-    {
-      display:block;
-      font-size: 24px;
-          }
-          @media(max-width:$tablet) 
-          {
-            font-size: 20px;
-                }
-}
+   
+  }
 .logo {
     flex: 1 1 auto;
     margin-left: 10%;
@@ -80,6 +57,71 @@ a{
 a:hover{
     color: #000;
 }
+     /* media query */
+@media screen  and (max-width:1200px) and (min-width:768px){
+      
+      *{
+        font-family: 'Rajdhani', sans-serif;
+        }
+        html {
+          scroll-behavior: smooth;
+      }
+        body{
+          font-size: 100;
+          overflow-x: hidden;
+          margin: 0;
+          padding: 0;
+            
+             }
+             h1{
+              font-size: 50px;
+              
+          }
+          p{
+              font-size: 24px;
+              line-height: 50px;
+          }
+          .navbar{
+              position: fixed;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: row;
+              flex-wrap: wrap;
+              background-color: darkgrey;
+              width: 100%;
+              height: 70px;
+              z-index: 1;
+          }
+          .nav{
+              display: flex;
+              justify-content: right;
+              list-style: none;
+              margin-right: 15%;
+             
+            }
+          .logo {
+              flex: 1 1 auto;
+              margin-left: 10%;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-weight: bold;
+              font-size: 35px;
+          }
+          
+          a{
+              margin: 15px;
+              color: white;
+              text-decoration: none;
+              text-transform: uppercase;
+          }
+          a:hover{
+              color: #000;
+          }
+    }
+
+
+
 /* Home page */
 .container-full{
     background-image: url("../img/backgrounds/Pizza.jpg");
@@ -101,6 +143,31 @@ a:hover{
       padding-top: 15%;
       padding-bottom: 1%;
     }
+
+    /* media query */
+    @media screen  and (max-width:1200px) and (min-width:768px){
+      .container-full{
+        background-image: url("../img/backgrounds/Pizza.jpg");
+        background-position: center;
+        text-align:center;
+        height: auto;
+        background-size: cover;
+        text-decoration-color: white;
+      }
+      .landing{
+        padding-top: 20%;
+        }
+        .landing h1{
+            font-weight: 600;
+            font-size: 45px;
+          }
+        
+        #mouse{
+          padding-top: 15%;
+          padding-bottom: 1%;
+        }
+    }
+  
      /*about us page*/
      .aboutUs{
         background:#000;
@@ -110,6 +177,20 @@ a:hover{
           font-size: 16px;
           color: white;
          }
+
+         /* media query */
+
+          @media screen  and (max-width:1200px) and (min-width:768px){
+            .aboutUs{
+              background:#000;
+                padding-top:5%;
+                padding-bottom: 3%;
+                text-align: center;
+                font-size: 16px;
+                color: white;
+              }
+          }
+
          /*Services */
          #whatWeDo h2{
             padding-top: 3%;
@@ -131,6 +212,31 @@ a:hover{
         #product-mgt{
           display: none;
         }
+
+        /* media query */
+        @media screen  and (max-width:1200px) and (min-width:768px){
+          #whatWeDo h2{
+            padding-top: 3%;
+          }
+          .overlay{
+            background-color: black;
+            opacity: 0.7;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 90%;
+          }
+          #design{
+              display: none;
+            }
+          #development{
+            display: none;
+          }
+          #product-mgt{
+            display: none;
+          }
+        }
+
 
           /* order */
           .order h2{
@@ -180,7 +286,44 @@ a:hover{
             color: white;
             font-size: 30px;
           }
-          
+           /* media query */
+            @media screen  and (max-width:1200px) and (min-width:768px){
+              .order h2{
+                text-align: center;
+              }
+              .order-overlay{
+                background-color: rgba(0, 0, 0, 0.8);
+                margin-left: 2%;
+                margin-right: 2%;
+                padding-bottom: 20px;
+                padding-left: 6%;
+              }
+              .choise{
+                display: none;
+                padding-left: 2%;
+                padding-right: 2%;
+              }
+              .deliver{
+                display: none;
+              }
+              .delivery{
+                display: none;
+                padding-left: 10%;
+                padding-right: 10%;
+              }
+              td,th{
+                font-size: 20px;
+                color: white;
+              }
+              .choise h2{
+                color:orange;
+                text-align: left;
+              }
+              #your-orders{
+                color: white;
+                font-size: 30px;
+              }
+            }
          
           /*Contact page*/
           #contact {
@@ -215,6 +358,43 @@ a:hover{
           #contact button:focus, #contact button:active {
             box-shadow: none;
             border-color: #fff;
+          }
+
+          /* media query */
+          @media screen  and (max-width:1200px) and (min-width:768px){
+            #contact {
+              background:black;
+              background-repeat: no-repeat;
+              background-size: cover;
+            }
+            
+            #contact input {
+              height: 45px;
+            }
+            
+            #contact input,
+            #contact textarea {
+              background: transparent;
+              border-radius: 0;
+              color: #fff;
+            }
+            
+            #contact input::placeholder,
+            #contact textarea::placeholder {
+              color: #cccccc;
+            }
+            
+            #contact input:focus, #contact input:active,
+            #contact textarea:focus,
+            #contact textarea:active {
+              box-shadow: none;
+              border-color: #fff;
+            }
+            
+            #contact button:focus, #contact button:active {
+              box-shadow: none;
+              border-color: #fff;
+            }
           }
           /* footer */
 .footer-basic {
@@ -275,5 +455,15 @@ a:hover{
     font-size:13px;
     color:#aaa;
     margin-bottom:0;
+  }
+  /* media query  */
+  @media screen  and (max-width:1200px) and (min-width:768px){
+    .footer-basic .copyright {
+      margin-top:15px;
+      text-align:center;
+      font-size:13px;
+      color:#aaa;
+      margin-bottom:0;
+    }
   }
         
