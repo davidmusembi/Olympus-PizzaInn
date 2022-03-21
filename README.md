@@ -2,11 +2,18 @@
 This is a pizza delivery app that allows the user to select the pizza type, size, crust and toppings then the application calculates the price plus delivery fee.
 
 ### A Screenshot of the Olympus-PizzaInn Project 
+<<<<<<< HEAD
 ![Screenshot from 2022-03-20 03-04-16](https://user-images.githubusercontent.com/51710726/159142644-754cafea-146e-4755-a609-e3b05a0a0685.png)
 ![Screenshot from 2022-03-20 03-05-14](https://user-images.githubusercontent.com/51710726/159142645-8920edab-d28e-4553-81a2-e552b5d2277a.png)
 ![Screenshot from 2022-03-20 03-06-03](https://user-images.githubusercontent.com/51710726/159142646-05c046b8-7c4a-49f7-8d19-4b43c4e2ecea.png)
 ![Screenshot from 2022-03-20 03-06-16](https://user-images.githubusercontent.com/51710726/159142648-a384661d-a2ac-4cb3-a007-79e4e2313f12.png)
 
+=======
+![Screenshot from 2022-03-19 16-33-49](https://user-images.githubusercontent.com/51710726/159123429-ddf5583f-7863-4f3e-9296-04bc7e7c6800.png)
+![Screenshot from 2022-03-19 16-35-51](https://user-images.githubusercontent.com/51710726/159123439-c23c1095-0e4c-401e-8f12-19357e4ad74e.png)
+![Screenshot from 2022-03-19 16-38-25](https://user-images.githubusercontent.com/51710726/159123447-b7624192-1746-4cc4-8611-44306403fc08.png)
+![Screenshot from 2022-03-19 16-36-26](https://user-images.githubusercontent.com/51710726/159123450-4bebf60d-6df2-43bb-b9ac-b948722ae4b3.png)
+>>>>>>> gh-pages
 
 ## Author
 David Musembi - Student at Moringa software development prep
